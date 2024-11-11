@@ -1,0 +1,449 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    min-height: 1000px;
+    position: relative;
+}
+
+.startContainer .rectangle {
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+}
+
+.brownButton {
+    position: absolute;
+    left: 70%;
+    top: 130px;
+    background-color: rgb(181, 150, 112);
+    border-width: 0;
+    width: 145px;
+    height: 42px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.brownButton a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.whiteLabel {
+    position: absolute;
+    left: 22%;
+    top: 50%;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif
+}
+
+.startContainer .grayRectangle {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 80px;
+}
+
+.startContainer .foodIcon {
+    position: absolute;
+    top: 95px;
+    left: 1%;
+    width: 75px;
+    height: 70px;
+}
+.buttons {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top: 105px;
+    right: 1.5%;
+}
+
+.btn {
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+.restaurantsLabel {
+    position: absolute;
+    top: 140%;
+    left: 18%;
+    color: rgb(51, 51, 51);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.brownLine2 {
+    position: absolute;
+    top: 143.3%;
+    left: 26%;
+    width: 60px;
+    height: 3px;
+    background-color: rgb(181, 149, 113);
+}
+
+.restaurantsBigLabel {
+    position: absolute;
+    top: 145%;
+    left: 30%;
+    color: rgb(51, 51, 51);
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.restaurantsText {
+    margin-bottom: 10px;
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.text2 {
+    position: absolute;
+    top: 151%;
+    left: 45%;
+}
+
+
+
+.twoImagesContainer {
+    position: absolute;
+    top: 190%;
+    left: 20%;
+}
+
+.firstImageContainer {
+    margin-top: 70px;
+    border-width: 30px;
+    border: 1px solid;
+    border-color: rgba(51, 51, 51, 0.2);
+    width: 416px;
+    height: 240px;
+    position: relative;
+}
+
+.firstImg {
+    position: absolute;
+    width: 336px;
+    height: 240px;
+    left: 10%;
+    top: 13%;
+}
+
+.secondImageContainer {
+    margin-top: -242px;
+    margin-left: 440px;
+    border-width: 30px;
+    border: 1px solid;
+    border-color: rgba(51, 51, 51, 0.2);
+    width: 416px;
+    height: 240px;
+    position: relative;
+}
+
+.secondImg {
+    position: absolute;
+    width: 336px;
+    height: 240px;
+    left: 10%;
+    top: 13%;
+}
+
+.firstLabel {
+    margin-top: 60px;
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+}
+
+.firstBrownLine {
+    margin-top: -30px;
+    margin-left: 225px;
+    width: 60px;
+    height: 3px;
+    background-color: rgba(181, 149, 113, 1);
+}
+
+.secondLabel {
+    margin-top: -15px;
+    margin-left: 560px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+}
+
+.secondBrownLine {
+    margin-top: -32px;
+    margin-left: 680px;
+    width: 60px;
+    height: 3px;
+    background-color: rgba(181, 149, 113, 1);
+}
+
+
+
+.lastContainer {
+    position: absolute;
+    top: 240%;
+    left: 17%;
+}
+
+.content {
+    position: relative;
+}
+
+.mapLabel {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+}
+
+.mapBrownLine {
+    position: absolute;
+    top: 7.5%;
+    left: 13%;
+    width: 60px;
+    height: 3px;
+    background-color: rgb(181, 149, 113);
+}
+
+.labelDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.numberLabel {
+    color: rgba(181, 149, 113, 1);
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.fourthBigBrownLabel {
+    color: rgba(181, 149, 113, 1);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.SmallerLabel {
+    color: rgb(51, 51, 51);
+}
+
+.label__item {
+    padding: 10px;
+}
+
+.grayMapImg {
+    position: absolute;
+    width: 646px;
+    height: 350px;
+    left: 120%;
+    top: 10%;
+}
+
+.grayInfoContainer {
+    position: absolute;
+    width: 316px;
+    height: 249px;
+    top: 25%;
+    left: 110%;
+}
+
+.grayContentCotainer {
+    position: relative;
+    background-color: rgba(91, 91, 91, 1);
+    width: 100%;
+    height: 100%;
+}
+
+.phoneIcon {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    top: 20%;
+    left: 20%;
+}
+
+.phoneLabel {
+    position: absolute;
+    top: 18%;
+    left: 33%;
+    color: white;
+}
+
+.mapsButton {
+    color: rgb(255, 255, 255);
+    background-color: rgba(181, 149, 113, 1);
+    border: 0;
+    height: 40px;
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+.mapsButton a {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+.footer {
+    position: absolute;
+    top: 290%; 
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+    height: 120px;
+}
+
+.icon {
+    position: relative;
+    width: 80px;
+    height: 56px;
+    top: 30%;
+    left: 5%;
+}
+
+.politics {
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    top: 9px;
+    left: 35%;
+    display: inline;
+}
+
+.creatorsNames {
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    top: 9px;
+    left: 60%;
+    display: inline;
+}
+
+
+
+:root {
+    --color-text: #2c3e50;
+    --color-text-light: #34495e;
+    --color-white: #ecf0f1;
+    --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+    --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+    --line: 1px solid var(--color-grey-light-2);
+  }
+  
+  html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+    color: var(--color-text);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    padding: 0;
+    margin: 0;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-white);
+    cursor: pointer;
+    position: absolute;
+    color: var(--color-white);
+    font-size: 3rem;
+    transform: translateY(-50%);
+    top: 50%;
+  }
+  
+  ul,
+  li {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .carousel {
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .carousel_slider {
+    width: 100%;
+    height: 87%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .content_inner_slider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  
+  .img {
+    min-width: 50vw;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .prev_button {
+    left: 0;
+  }
+  
+  .next_button {
+    right: 0;
+  }
+  
+  .dots {
+    display: flex;
+    margin: 1rem 0;
+  }
+  
+  .dot {
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid var(--color-text-light);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .form {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  .conteinerCarousel {
+    position:absolute;
+    left: 25%;
+    top: 90%;
+  }

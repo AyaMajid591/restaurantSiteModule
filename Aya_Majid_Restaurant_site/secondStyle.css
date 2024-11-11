@@ -1,0 +1,252 @@
+body { 
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.grayContainer {
+    position: absolute;
+    width: 120px;
+    height: 1000px;
+    left: 0;
+}
+
+.grayContent {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51, 51, 51, 1);
+}
+
+.foodIcon {
+    position: absolute;
+    width: 80px;
+    height: 106px;
+    top: 3%;
+    left: 7%;
+}
+
+.buttons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 65%;
+    left: 27%;
+}
+
+.btn {
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+.flexContainer {
+    width: 1296px;
+    height: 1260px;
+    position: relative;
+    left: 11%;
+    top: 80px;
+}
+
+.flexContent {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexItem {
+    width: 306px;
+    height: 394px;
+    border: 1px solid;
+    border-color: rgba(51, 51, 51, 0.2);
+    text-align: center;
+    margin: 5px;
+}
+
+.flexImg {
+    width: 306px;
+    height: 220px;
+}
+
+.restaurantName {
+    color: rgba(51, 51, 51, 1);
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.averageBill {
+    font-size: 32px;
+    color: rgba(51, 51, 51, 1);
+    font-weight: 700;
+    position: relative;
+    bottom: 5%;
+    left: -25%;
+}
+
+.moreBtn {
+    color: rgb(255, 255, 255);
+    background-color: rgba(181, 149, 113, 1);
+    border: 0;
+    height: 40px;
+    width: 150px;
+    position: relative;
+    bottom: 23%;
+    left: 18%;
+}
+
+.lastContainer {
+    position: relative;
+    top: 200px;
+    left: 170px;
+    width: 1000px;
+    height: 500px;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.mapLabel {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+}
+
+.mapBrownLine {
+    position: relative;
+    top: -30px;
+    left: 50px;
+    width: 60px;
+    height: 3px;
+    background-color: rgb(181, 149, 113);
+}
+
+.labelDiv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 561px;
+    height: 357px;
+}
+
+.numberLabel {
+    color: rgba(181, 149, 113, 1);
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.fourthBigBrownLabel {
+    color: rgba(181, 149, 113, 1);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.SmallerLabel {
+    color: rgb(51, 51, 51);
+}
+
+.label__item {
+    padding: 10px;
+    width: 230px;
+    height: 178px;
+}
+
+.grayMapImg {
+    position: relative;
+    width: 646px;
+    height: 350px;
+    left: 600px;
+    top: -350px;
+}
+
+.grayInfoContainer {
+    position: relative;
+    width: 316px;
+    height: 249px;
+    top: -650px;
+    left: 510px;
+}
+
+.grayContentCotainer {
+    position: relative;
+    background-color: rgba(91, 91, 91, 1);
+    width: 100%;
+    height: 100%;
+}
+
+.phoneIcon {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    top: 20%;
+    left: 20%;
+}
+
+.phoneLabel {
+    position: absolute;
+    top: 14.5%;
+    left: 33%;
+    color: white;
+}
+
+.mapsButton {
+    color: rgb(255, 255, 255);
+    background-color: rgba(181, 149, 113, 1);
+    border: 0;
+    height: 40px;
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+.mapsButton a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer {
+    /* margin-top: 160px; */
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+    height: 120px;
+}
+
+.icon {
+    position: relative;
+    width: 80px;
+    height: 56px;
+    top: 30%;
+    left: 5%;
+}
+
+.politics {
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    top: 9px;
+    left: 35%;
+    display: inline;
+}
+
+.creatorsNames {
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    top: 9px;
+    left: 60%;
+    display: inline;
+}
